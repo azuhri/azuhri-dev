@@ -71,7 +71,25 @@
       font-size: 0.7rem;
       transition: 1s;
       cursor: pointer;
-      text-decoration: none
+      text-decoration: none;
+      display: flex;
+      position: relative!important;
+      padding-bottom: 0.2rem
+    }
+
+    .navs a:after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      transition: 0.5s;
+      height: 2px;
+      background-color: #3f3d56;
+      bottom: 0;
+    }
+
+    .navs a:hover::after {
+      width: 100%;
+      transition: 0.5s
     }
 
     .navs a:hover {
