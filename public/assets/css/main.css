@@ -35,7 +35,8 @@ body {
 
   .navs ul {
     display: flex;
-    align-items: center
+    align-items: center;
+    padding-left: 0;
   }
 
   .navs ul li {
@@ -49,7 +50,7 @@ body {
     color: gray;
     font-size: 0.5rem;
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     transition: 1s;
     cursor: pointer;
     text-decoration: none;
@@ -156,13 +157,13 @@ body {
 
   .icon-banner img {
     width: 75%;
-    /* box-shadow: 25px 0 100px 17px #771086ba;
-    border-radius: 2.5rem; */
+    animation: scale 4s ease-in-out infinite;
+    position: relative;
   }
 
-  .layer2 {
+  /* .layer2 {
     border-bottom: 5px solid #3f3d56;
-  }
+  } */
 
   .iconing {
     display: flex;
@@ -212,6 +213,70 @@ body {
     opacity: 1!important;
     background: linear-gradient(to right, #ed239f 0%, #ed239f 51%, #f49900 100%);
   }
+
+  @keyframes scale {
+    0% { 
+      /* transform: scale(1); */
+          bottom: 80px;
+    }
+    49% { 
+      /* transform: scale(0.7); */
+           bottom: 15px;
+
+    }
+    50% {
+       /* transform: scale(0.7); */
+          bottom: 15px;
+
+    }
+    99% { 
+      /* transform: scale(1); */
+          bottom: 80px;
+    }
+    100% {
+       /* transform: scale(1);  */
+      bottom: 80px;
+
+    } 
+  }
+
+  @media only screen and (max-width: 1680px) { 
+
+    .img span {
+      top: 40px;
+      right: 25px;
+    }
+    
+    .desc span:nth-child(2) {
+      font-size: 2.2rem;
+    }
+
+    .desc span:nth-child(3) {
+      font-size: 1.5rem;
+    }
+
+    .iconing i {
+      font-size: 1.7rem;
+    }
+
+    .btnStart button {
+      padding: 0.8rem 0;
+    }
+
+    .icon-banner {
+      justify-content: center;
+    }
+
+    .icon-banner img {
+      width: 70%;
+    }
+
+    .navs ul li {
+      margin: 0 1rem;
+    }
+
+  }
+
 
   
 
