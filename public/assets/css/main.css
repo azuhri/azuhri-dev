@@ -143,10 +143,10 @@ body {
 
   .desc span:nth-child(3) {
     font-size: 2rem;
-    color: #4b4dda;
+    color: #000;
     font-weight: lighter;
     font-family: 'Roboto';
-    text-shadow: -3px 3px 3px #4b4dda;
+    text-shadow: -3px 3px 1px #383842;
   }
 
   .icon-banner {
@@ -172,12 +172,12 @@ body {
   }
 
   .iconing a {
-    width: 15%;
+    width: 50px;
     cursor: pointer
   }
 
   .iconing i {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     color: #3f3d56;
     transition: 1s
     
@@ -194,24 +194,120 @@ body {
   }
 
   .btnStart button {
-    width: 50%;
+    width: 170px;
     border-radius: 0.3rem;
     padding: 0.8rem 0;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     text-transform: uppercase;
     font-family: 'Quicksand';
     font-weight: bold;
     transition: 0.5s!important;
-    opacity: 0.5!important;
-    background: linear-gradient(to right, #f49900 0%, #f46716 51%, #ed239f 100%);
+    /* opacity: 0.5!important; */
+    outline: none;
+    background-size: 200% auto!important;
+    background: linear-gradient(to right, #ed239f 0%, #474ad0 51%, #ed239f 100%);
   }
 
   .btnStart button:hover {
     transition: 0.5s!important;
-    opacity: 1!important;
-    background: linear-gradient(to right, #ed239f 0%, #ed239f 51%, #f49900 100%);
+    background-position: right center!important;
+    /* opacity: 1!important; */
+
+  }
+
+  .about {
+    display: flex;
+    /* justify-content: center; */
+    padding: 5rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coverAbout {
+    width: 50%;
+    /* border: 1px solid gray; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgMain {
+    display: flex;
+    align-items: center;
+  }
+
+  .imgMain img {
+    width: 50%;
+    
+  }
+
+  .imgMain span {
+    margin: 2rem 0;
+  }
+
+  .imgMain img , .descAbout {
+    width: 50%;
+    margin: 3rem;
+  } 
+
+  .biodata {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio1 , .bio2 {
+    display: flex;
+  }
+
+  .edu, .skills {
+    padding: 1rem;
+    width: 50%;
+  }
+  
+  .edu {
+    border-right: 1px solid gray;
+    
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contents div {
+    display: flex;
+  }
+
+  .contents .icons,
+  .contents .year,
+  .contents .school {
+    margin-right: 2rem;
+    position: relative;
+  }
+
+  .school {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons .lines {
+    height: 100%;
+    background-color: black;
+
+  }
+
+  .contents {
+    font-size: 1.7rem;
   }
 
   @keyframes scale {

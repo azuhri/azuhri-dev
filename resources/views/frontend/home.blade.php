@@ -54,4 +54,83 @@ background-size: cover;">
       </div>
     </div>
 </section>
+<section class="about" id="about">
+  <div class="coverAbout">
+    <h1>ABOUT ME</h1>
+    <div class="dataAbout">
+      <div class="imgMain">
+        <img src="{{asset('azuhri.png')}}" alt="">
+        <div class="descAbout">
+          <h4>
+            I'm Azis Zuhri Pratomo, Software Engineer
+          </h4>
+          <span>
+            I like all about of computer since i was a child. For me, computer can give anything when i playing with them. More of that, what I think before. 
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="biodata">
+    <div class="bio1" style="background-image: url({{asset('common-banner.png')}})">
+      <div class="edu">
+        <h5>
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          <span>Education</span>
+        </h5>
+        <div class="contents">
+          <div>
+              <div class="icons">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <div class="lines">&nbsp;</div>
+              </div>
+              <div class="year">
+                <span> 2007</span>
+              </div>
+              <div class="school">
+                <span>Primary School</span>
+                <span>(SDN 03 BAMBU APUS)</span>
+              </div>
+          </div>
+          <div>
+            <div class="icons">
+              <i class="fa fa-circle" aria-hidden="true"></i>
+              <div class="lines">&nbsp;</div>
+            </div>
+            <div class="year">
+              <span> 2007</span>
+            </div>
+            <div class="school">
+              <span>Primary School</span>
+              <span>(SDN 03 BAMBU APUS)</span>
+            </div>
+        </div>
+        <div>
+          <div class="icons">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            <div class="lines">&nbsp;</div>
+          </div>
+          <div class="year">
+            <span> 2007</span>
+          </div>
+          <div class="school">
+            <span>Primary School</span>
+            <span>(SDN 03 BAMBU APUS)</span>
+          </div>
+      </div>
+        </div>
+      </div>
+      <div class="skills">
+        <h5>
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <span>Skills</span>
+        </h5>
+        <div class="contents">
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio doloremque illo nam mollitia tempore voluptate fugiat ducimus, nesciunt nihil asperiores reprehenderit quasi eos, perferendis architecto libero ab enim! Alias.</span>
+        </div>
+      </div>
+    </div>
+    <div class="bio2"></div>
+  </div>
+</section>
 @endsection
