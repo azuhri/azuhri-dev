@@ -125,7 +125,7 @@ body {
   }
 
   .desc span {
-    margin: 0.5rem 0
+    margin: 0.5rem 03f3d56
   }
 
   .desc span:nth-child(1) {
@@ -152,11 +152,11 @@ body {
   .icon-banner {
     display: flex;
     position: absolute;
-    right: 0;
+    justify-content: flex-end;
   }
 
   .icon-banner img {
-    width: 75%;
+    width: 60%;
     animation: scale 4s ease-in-out infinite;
     position: relative;
   }
@@ -169,6 +169,8 @@ body {
     display: flex;
     margin-bottom: 3rem ;
     margin-bottom: 1rem ;
+    position: relative;
+    z-index: 9999999999999999999999999999999999999999999;
   }
 
   .iconing a {
@@ -190,7 +192,10 @@ body {
 
   .btnStart {
     margin: 1rem 0;
-    display: flex
+    display: flex;
+    position: relative;
+    z-index: 9999999999999999999999999999999999999999999;
+  
   }
 
   .btnStart button {
@@ -246,6 +251,9 @@ body {
 
   .imgMain span {
     margin: 2rem 0;
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: lighter;
   }
 
   .imgMain img , .descAbout {
@@ -259,8 +267,28 @@ body {
     flex-direction: column;
   }
 
+  .biodata .icon-main {
+    border: 5px solid #ececec;
+    border-radius: 50%;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  .skills h5 span,
+  .edu h5 span {
+    font-size: 2rem;
+  }
+
   .bio1 , .bio2 {
     display: flex;
+  }
+
+  .fa-circle {
+    padding: 0.5rem;
+    border: 5px solid #05364d;
+    border-radius: 50%;
+    color: #05364d;
+    font-size: 2rem;
   }
 
   .edu, .skills {
@@ -276,6 +304,12 @@ body {
   .contents {
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
+
+  .year span {
+    padding: 1rem;
   }
 
   .contents div {
@@ -302,13 +336,335 @@ body {
 
   .icons .lines {
     height: 100%;
-    background-color: black;
+    background-color: #05364d;
+    width: 5px;
 
   }
 
-  .contents {
-    font-size: 1.7rem;
+  .programming .coverProgram{
+    display: flex;
+    flex-direction: column;
   }
+
+  .programming div {
+    display: flex;
+  }
+
+  .programming div img {
+    width: 10%;
+  }
+
+  .programming div span {
+    display: flex;
+    align-items: center;
+  }
+
+  .percen {
+    display: flex;
+  }
+
+  .outside {
+    display: flex;
+    width: 50%;
+    border: 1px solid gray;
+  }
+
+  .outside div {
+    width: 25%;
+    border: 1px solid gray;
+  }
+
+  footer {
+    width: 100%;
+    background-color: #021017;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+  }
+
+  .foot {
+    width: 50%;
+    
+  }
+
+  .footIcon {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .footIcon span {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .footIcon img {
+    width: 10%;
+
+  }
+
+  .footNav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footNav ul {
+    display: flex;
+  }
+  
+  .footNav li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+
+  .footNav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.3rem;
+  }
+
+  .footNav a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    transition: 0.5s;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+  }
+
+  .footNav a:hover::after {
+    width: 100%;
+    transition: 0.5s
+  }
+
+  .footSosmed {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footSosmed a {
+    margin: 0 1rem ;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .footSosmed i {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    color: #021017;
+  }
+
+  .footSosmed a .fa-facebook-f {
+    padding: 1rem 1.5rem;
+  }
+
+
+  .footSosmed a .fa-instagram {
+    padding: 1rem 1.3rem;
+  }
+
+
+  .footSosmed a .fa-linkedin {
+    padding: 1rem 1.3rem;
+  }
+
+  .footNote {
+    display: flex;
+    margin: 1.5rem;
+    justify-content: center;
+  }
+
+  .footNote span {
+    text-align: center;
+    font-size: 1rem;
+    color: #ccc;
+    font-weight: lighter;
+  }
+
+  .aboutme {
+    font-size: 1.2rem!important;
+    font-weight: 400!important;
+    color: #ccc9c9;
+  }
+
+  .descAbout h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .sf {
+    font-weight: 400;
+    font-family: 'Quicksand';
+    font-style: italic;
+  }
+
+  #portofolio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+  }
+
+  .cover1, .cover2 {
+    width: 50%;
+  }
+
+  .titleLayer1 span{
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    color: #ccc9c9;
+    font-family: 'Roboto';
+  }
+
+  .titleLayer1 h3 {
+    width: 40%;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    color: #05364d;
+  }
+
+  .navPortof {
+    display: flex ;
+    justify-content: space-between;
+    padding: 5rem 0;
+  }
+
+  .navPortof h5 {
+    cursor: pointer;
+  }
+
+
+  .eduContent, .skillContent,
+  .expContent, .achieveContent {
+    display: flex;
+    width: 100%;
+  }
+
+  .skillContent {
+    justify-content: space-between;
+  }
+
+  .eduContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid #262121; */
+    border-radius: 0.5rem;
+    padding: 3rem 0;
+    background-color: ghostwhite;
+    box-shadow: 0px 1px 3px 1px #d5d5d5;
+    
+  }
+  
+  .eduContent .eduCovers {
+    display: flex;
+    
+  }
+  
+  .eduCovers {
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .school, .year , .icons {
+    display: flex;
+    width: 30%;
+  }
+  
+  .year {
+    justify-content: center;
+
+  }
+
+  .school {
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .eduCovers span {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+  }
+
+
+.skillContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coverSkill {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* box-shadow: 0px 2px 10px #c3c3c6; */
+  border-radius: 0.5rem;
+  width: 285px;
+  cursor: pointer;
+  height: 50vh;
+  border: 1px solid #0b1c2d;
+  margin-bottom: 1rem;
+}
+
+.coverSkill div {
+  width: 100%;
+}
+
+.imgSkill {
+  display: flex;
+}
+
+.imgSkill img {
+  width: 1000%;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+
+.Desc {
+  padding: 1rem;
+}
+
+.Ability {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  padding: 0 1rem;
+}
+
+.Ability div,
+.Ability span{
+  width: 50%;
+}
+
+.Ability div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+  
+  
+  
+  
+
+
 
   @keyframes scale {
     0% { 
