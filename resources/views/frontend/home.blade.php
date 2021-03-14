@@ -27,7 +27,9 @@ background-size: cover;">
       <div class="desc">
         <span>HELLO GUYS!</span>
         <span>I AM AZIS ZUHRI PRATOMO</span>
-        <span>FULLSTACK WEB DEVELOPER</span>
+        <div class="typed-text2">
+          <span class="typed-text"></span><p class="cursor">&nbsp;</p>
+        </div>
         <div class="iconing">
           <a class="twitters">
             <i class="fab fa-twitter"></i>
@@ -57,7 +59,7 @@ background-size: cover;">
   <div class="coverAbout">
     <div class="dataAbout">
       <div class="imgMain">
-        <img src="{{asset('azuhri.png')}}" alt="">
+        <img src="{{asset('azuhri2.png')}}" alt="">
         <div class="descAbout">
           <span class="aboutme">ABOUT ME</span>
           <h4>
@@ -83,11 +85,15 @@ background-size: cover;">
     </div>
     <div class="navPortof">
       <h5>
+        <i class="fas fa-id-card"></i>
+        <span>All </span>
+      </h5>
+      <h5>
         <i class="fa fa-graduation-cap icon-main" aria-hidden="true"></i>
         <span>Education</span>
       </h5>
       <h5>
-        <i class="fa fa-code icon-main" aria-hidden="true"></i>
+        <i class="fas fa-laptop-code"></i>
         <span>Skills</span>
       </h5>
       <h5>
@@ -102,6 +108,9 @@ background-size: cover;">
   </div>
   <div class="cover2">
     <div class="eduContent">
+            <div class="titleEdu">
+              <span>Track Record Education</span>
+            </div>
             <div class="eduCovers">
               <div class="icons">
                 <i class="fa fa-circle" aria-hidden="true"></i>
@@ -143,188 +152,136 @@ background-size: cover;">
     </div>  
     </div>
     <div class="skillContent">
-      <div class="coverSkill">
-        <div class="imgSkill">
-          <img src="{{asset('assets/js.png')}}" alt="">
-        </div>
-        <div class="Desc">
-          <h5>Javascript</h5>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
-        </div>
-        <div class="Ability">
-          <span>Ability</span>
-          <div class="abilIcon">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
+      <div class="titleSkill">
+        <span>My Skills</span>
+      </div>
+      <div class="navSkill">
+        <a href="">
+          <i class="fa fa-code icon-main" aria-hidden="true"></i>
+          <span>Programming</span>
+        </a>
+        <a href="">
+          <i class="fas fa-network-wired"></i>
+          <span>Networkings</span>
+        </a>
+        <a href="">
+          <i class="fas fa-server"></i>
+          <span>Sysadmins/Server</span>
+        </a>
+        <a href="">
+          <i class="fas fa-photo-video"></i>
+          <span>Desain</span>
+        </a>
+      </div>
+      <div class="coverSkillContent">
+        <div class="coverSkill">
+          <div class="imgSkill">
+            <img src="{{asset('assets/js.png')}}" alt="">
+          </div>
+          <div class="Desc">
+            <h5>Javascript</h5>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
+          </div>
+          <div class="Ability">
+            <span>Ability</span>
+            <div class="abilIcon">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="coverSkill">
-        <div class="imgSkill">
-          <img src="{{asset('assets/laravel.jpg')}}" alt="">
-        </div>
-        <div class="Desc">
-          <h5>Laravel</h5>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
-        </div>
-        <div class="Ability">
-          <span>Ability</span>
-          <div class="abilIcon">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
+        <div class="coverSkill">
+          <div class="imgSkill">
+            <img src="{{asset('assets/laravel.jpg')}}" alt="">
+          </div>
+          <div class="Desc">
+            <h5>Laravel</h5>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
+          </div>
+          <div class="Ability">
+            <span>Ability</span>
+            <div class="abilIcon">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="coverSkill">
-        <div class="imgSkill">
-          <img src="{{asset('assets/python.png')}}" alt="">
-        </div>
-        <div class="Desc">
-          <h5>Python</h5>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
-        </div>
-        <div class="Ability">
-          <span>Ability</span>
-          <div class="abilIcon">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
+        <div class="coverSkill">
+          <div class="imgSkill">
+            <img src="{{asset('assets/python.png')}}" alt="">
+          </div>
+          <div class="Desc">
+            <h5>Python</h5>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
+          </div>
+          <div class="Ability">
+            <span>Ability</span>
+            <div class="abilIcon">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="coverSkill">
-        <div class="imgSkill">
-          <img src="{{asset('assets/python.png')}}" alt="">
-        </div>
-        <div class="Desc">
-          <h5>Python</h5>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
-        </div>
-        <div class="Ability">
-          <span>Ability</span>
-          <div class="abilIcon">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
+        <div class="coverSkill">
+          <div class="imgSkill">
+            <img src="{{asset('assets/python.png')}}" alt="">
+          </div>
+          <div class="Desc">
+            <h5>Python</h5>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo molestiae, quae cumque est eos delectus porro repellat necessitatibus laborum magnam excepturi similique nesciunt aliquid aliquam quia earum, alias eveniet sint.</span>
+          </div>
+          <div class="Ability">
+            <span>Ability</span>
+            <div class="abilIcon">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="achieveContent"></div>
-    <div class="expContent"></div>
+    <div class="achieveContent">
+      <div class="ach1">
+          <span>My Achievements</span>
+      </div>
+      <div class="ach2">
+          <div class="coverAch">
+            <div class="coverAch1">
+              <div class="imgAch">
+                <img src="{{asset('assets/seacc.jpg')}}" alt="">
+              </div>
+              <div class="descAch">
+                <h5>
+                  <span>Competition </span>
+                  <span>:  SEACC</span>
+                </h5>
+                <h5>
+                  <span>Level </span>
+                  <span>:  Internasional </span>
+                </h5>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facere nam cupiditate. Quos omnis dolorum soluta autem! Doloribus vero rerum, distinctio voluptatem officiis velit provident est quo alias beatae nostrum.</span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="expContent">
+      
+    </div>
   </div>
 </section>
-{{-- <div class="biodata">
-  <div class="bio1">
-    <div class="edu">
-      <h5>
-        <i class="fa fa-graduation-cap icon-main" aria-hidden="true"></i>
-        <span>Education</span>
-      </h5>
-      <div class="contents">
-        <div>
-            <div class="icons">
-              <i class="fa fa-circle" aria-hidden="true"></i>
-              <div class="lines">&nbsp;</div>
-            </div>
-            <div class="year">
-              <span> 2007</span>
-            </div>
-            <div class="school">
-              <span>Primary School</span>
-              <span>(SDN 03 BAMBU APUS)</span>
-            </div>
-        </div>
-        <div>
-          <div class="icons">
-            <i class="fa fa-circle" aria-hidden="true"></i>
-            <div class="lines">&nbsp;</div>
-          </div>
-          <div class="year">
-            <span> 2007</span>
-          </div>
-          <div class="school">
-            <span>Primary School</span>
-            <span>(SDN 03 BAMBU APUS)</span>
-          </div>
-      </div>
-      <div>
-        <div class="icons">
-          <i class="fa fa-circle" aria-hidden="true"></i>
-          <div class="lines">&nbsp;</div>
-        </div>
-        <div class="year">
-          <span> 2007</span>
-        </div>
-        <div class="school">
-          <span>Primary School</span>
-          <span>(SDN 03 BAMBU APUS)</span>
-        </div>
-    </div>
-      </div>
-    </div>
-    <div class="skills">
-      <h5>
-        <i class="fa fa-code icon-main" aria-hidden="true"></i>
-        <span>Skills</span>
-      </h5>
-      <div class="contents">
-        <ul>
-          <li>Programming</li>
-          <div class="programming">
-            <div class="coverProgram">
-              <div class="iconProgramming">
-                <img src="{{asset('assets/python.png')}}" alt="">
-                <span>Python - (70%)</span>
-              </div>{{asset('favicon.png')}}{{asset('favicon.png')}}
-              <div class="iconProgramming">
-                <img src="{{asset('assets/php.png')}}" alt="">
-                <span>PHP - (90%)</span>
-              </div>
-              <div class="iconProgramming">
-                <img src="{{asset('assets/js.png')}}" alt="">
-                <span>Javascript - (90%)</span>
-              </div>
-              <div class="iconProgramming">
-                <img src="{{asset('assets/laravel.jpg')}}" alt="">
-                <span>Laravel - (90%)</span>
-              </div>
-              <div class="iconProgramming">
-                <img src="{{asset('assets/react.png')}}" alt="">
-                <span>React JS- (90%)</span>
-              </div>
-            </div>
-          </div>
-          <li>Networking</li>
-          <div class="programming">
-            <div class="coverProgram">
-              <div class="iconProgramming">
-                <img src="{{asset('assets/cisco.png')}}" alt="">
-                <span>Cisco - (70%)</span>
-              </div>
-              <div class="iconProgramming">
-                <img src="{{asset('assets/mikrotik.png')}}" alt="">
-                <span>MikrotTik - (90%)</span>
-              </div>
-            </div>
-          </div>
-          <li>Design Graphics</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="bio2"></div>
-</div> --}}
 <footer>
   <div class="foot">
     <div class="footIcon">
