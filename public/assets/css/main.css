@@ -851,6 +851,48 @@ border-top-right-radius: 0.5rem;
   100% { background-color: #4e76d5; } 
 }
 
+.textDecs{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.btnAchiev {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.btnAchiev button {
+  padding: 0.5rem 0;
+  width: 20%;
+  padding: 0.5rem 0;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #ed239f;
+  position: relative;
+  border: 1px solid #ed239f;
+  transition: 0.5s;
+  outline: none;
+}
+
+.btnAchiev button:hover {
+  background: linear-gradient(to left, #ed239f 0%, #ed239f 51%, #474ad0 100%);
+  transition: 0.5s;
+  color: white;
+  /* font-weight: bold; */
+  border: 1px solid white;
+}
+
+.expContent {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
 
   
 

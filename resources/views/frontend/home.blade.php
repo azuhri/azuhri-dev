@@ -1,6 +1,6 @@
 @extends('component.template')
 @section('title')
-    azuhri-dev | Home
+   Home
 @endsection
 @section('content')
 <section class="header" style="background: url('{{asset('home-banner.png')}}'); background-position: center;
@@ -86,23 +86,23 @@ background-size: cover;">
     <div class="navPortof">
       <h5>
         <i class="fas fa-id-card"></i>
-        <span>All </span>
+        <span>all </span>
       </h5>
       <h5>
         <i class="fa fa-graduation-cap icon-main" aria-hidden="true"></i>
-        <span>Education</span>
+        <span>education</span>
       </h5>
       <h5>
         <i class="fas fa-laptop-code"></i>
-        <span>Skills</span>
+        <span>skills</span>
       </h5>
       <h5>
         <i class="fa fa-trophy" aria-hidden="true"></i>
-        <span>Achievements</span>
+        <span>achievements</span>
       </h5>
       <h5>
         <i class="fa fa-briefcase" aria-hidden="true"></i>
-        <span>experince</span>
+        <span>experinces</span>
       </h5>
     </div>
   </div>
@@ -271,14 +271,42 @@ background-size: cover;">
                   <span>Level </span>
                   <span>:  Internasional </span>
                 </h5>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facere nam cupiditate. Quos omnis dolorum soluta autem! Doloribus vero rerum, distinctio voluptatem officiis velit provident est quo alias beatae nostrum.</span>
+                <span class="textDecs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facere nam cupiditate. Quos omnis dolorum soluta autem! Doloribus vero rerum, distinctio voluptatem officiis velit provident est quo alias beatae nostrum.</span>
+              </div>
+              <div class="btnAchiev">
+                <button>view details</button>
               </div>
             </div>
           </div>
       </div>
     </div>
     <div class="expContent">
-      
+      <div class="ach1">
+        <span>My Experinces</span>
+    </div>
+    <div class="ach2">
+        <div class="coverAch">
+          <div class="coverAch1">
+            <div class="imgAch">
+              <img src="{{asset('assets/seacc.jpg')}}" alt="">
+            </div>
+            <div class="descAch">
+              <h5>
+                <span>Project </span>
+                <span>:  SEACC</span>
+              </h5>
+              <h5>
+                <span>Institution</span>
+                <span>:  VHS 26 Jakarta  </span>
+              </h5>
+              <span class="textDecs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id facere nam cupiditate. Quos omnis dolorum soluta autem! Doloribus vero rerum, distinctio voluptatem officiis velit provident est quo alias beatae nostrum.</span>
+            </div>
+            <div class="btnAchiev">
+              <button>view details</button>
+            </div>
+          </div>
+        </div>
+    </div>
     </div>
   </div>
 </section>

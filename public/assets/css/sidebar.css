@@ -1,0 +1,86 @@
+
+.sideAvatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileAdmin, .imgSide {
+    width: 100%;
+    margin: 0.5rem 0;
+    display: flex;
+}
+
+.imgSide {
+    justify-content: center;
+}
+
+.imgSide img {
+	width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+
+.profileAdmin {
+    flex-direction: column;
+}
+
+.profileAdmin div {
+    display: flex;
+    justify-content: center;
+}
+
+.profileAdmin span {
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+#sideBarTitle {
+	font-size: 1.5rem;
+	font-family: 'Poppins';
+	background: -webkit-linear-gradient(hotpink, cyan);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.nav-judul {
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-judul img {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.innerBox {
+    background-color: #e073ff5c !important;;
+}
+
+
+.innerBox a {
+    color: white!important;
+}
+
+.innerBox a:hover {
+    background-color: #f424fbb3!important;
+}
+
+.innerBox h6 {
+    color: white!important;
+}
+
+.bg-gradient-primary {
+	background-color: #082375;
+	background-image: linear-gradient(180deg,#6244c8 10%,#d2192b 100%);
+	background-size: cover;
+}
