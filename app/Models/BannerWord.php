@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class BannerWord extends Model
 {
     use HasFactory;
+    protected $fillable = ['word'];
+    public $timestamps = false;
 }

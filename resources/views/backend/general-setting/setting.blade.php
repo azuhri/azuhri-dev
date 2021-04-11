@@ -249,8 +249,8 @@ $(document).ready(function() {
     }
 
     .imgAvatar img {
-        width:300px;
-        height: 300px;
+        width:150px;
+        height: 150px;
         border-radius: 50%;
     }
 

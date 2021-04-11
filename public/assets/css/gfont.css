@@ -7,8 +7,13 @@
     flex-direction: row!important;
 }
 
-.err div span {
-    width: 50%;
+.err div span:nth-child(1) {
+    width: 70%;
+}
+
+
+.err div span:nth-child(2) {
+    width: 30%;
 }
 
 .err div span:nth-child(2) {

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Admin;
 use Faker\Factory as fake;
 use Illuminate\Support\Facades\Hash;
+use Intervention\Image\Facades\Image;
 
 class BackendController extends Controller
 {
@@ -42,10 +43,13 @@ class BackendController extends Controller
                         $ava_name = $admin->uuid.'-avatar' . "." . $avatar->extension();
                         $link_ava = 'storage/avatar/'.$ava_name;
                         if(file_exists(public_path($admin->avatar))){
-                            unlink(public_path($link_ava));
+                            unlink(public_path($admin->avatar));
 
                         }
-                        $avatar->storeAs('avatar', $ava_name, 'public');
+                        // $avatar->storeAs('avatar', $ava_name, 'public');
+                        $avatar_resize = Image::make($avatar->getRealPath());
+                        $avatar_resize->resize(100,100);
+                        $avatar_resize->save(storage_path('app/public/avatar' . $ava_name));
                         $data = [
                             'username' => $req->username ,
                             'email' => $req->email,
@@ -67,9 +71,12 @@ class BackendController extends Controller
                     $ava_name = $admin->uuid.'-avatar'.".".$avatar->extension();
                     $link_ava = 'storage/avatar/'.$ava_name;
                     if(file_exists(public_path($admin->avatar))){
-                        unlink(public_path($link_ava));
+                        unlink(public_path($admin->avatar));
                     }
-                    $avatar->storeAs('avatar', $ava_name, 'public');
+                    // $avatar->storeAs('avatar', $ava_name, 'public');
+                    $avatar_resize = Image::make($avatar->getRealPath());
+                    $avatar_resize->resize(300,300);
+                    $avatar_resize->save(storage_path('app/public/avatar/' . $ava_name));
                     $data = [
                         'username' => $req->username ,
                         'email' => $req->email,

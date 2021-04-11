@@ -669,7 +669,7 @@ body {
 }
 
 .imgSkill img {
-  width: 1000%;
+  width: 100%;
   border-radius: 1.5rem;
   padding: 0.5rem;
 }
@@ -833,6 +833,7 @@ border-top-right-radius: 0.5rem;
 .typed-text {
   font-weight: bold;
   padding-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 .cursor {

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Admin;
+use App\Models\BannerWord as Word;
 use Faker\Factory as fake;
 use Illuminate\Support\Facades\Hash;
 
@@ -11,7 +12,13 @@ class FrontendController extends Controller
 {
     public function home()
     {
-        return view('frontend.home');
+        $words = Word::all();
+        return view('frontend.home', compact('words'));
+    }
+
+    public function testing()
+    {
+        return view('frontend.testing');
     }
 
     public function login()

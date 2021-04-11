@@ -1,6 +1,7 @@
 @extends('component.template')
 @section('title')
    Home
+   
 @endsection
 @section('content')
 <section class="header" style="background: url('{{asset('home-banner.png')}}'); background-position: center;
@@ -344,5 +345,15 @@ background-size: cover;">
     </div>
   </div>
 </footer>
-    
+
 @endsection
+@push('script')
+<script>
+  var tulisan = [];
+</script>
+@foreach ($words as $wordlist)
+<script>
+  tulisan.push('{{$wordlist->word}}');
+</script>
+@endforeach
+@endpush

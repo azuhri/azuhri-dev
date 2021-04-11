@@ -5,7 +5,6 @@ const typedText = document.querySelector('.typed-text');
 
 // typedText.style.backgroundColor = 'red';
 
-const tulisan = ["SOFTWARE ENGINEER", "FULLSTACK WEB DEV.", "I LOVE CODING :')"];
 const typingDelay = 200;
 const erasingDelay = 50;
 const newTextDelay = 2000;
